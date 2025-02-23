@@ -1,0 +1,664 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.5">
+    
+    
+      
+        <title>Les feuilles de style</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.8608ea7d.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#les-feuilles-de-style" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href="." title="Les feuilles de style" class="md-header__button md-logo" aria-label="Les feuilles de style" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Les feuilles de style
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Les feuilles de style
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Onglets" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="." class="md-tabs__link">
+        
+  
+    
+  
+  Les feuilles de style
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Les feuilles de style" class="md-nav__button md-logo" aria-label="Les feuilles de style" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Les feuilles de style
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Les feuilles de style
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Les feuilles de style
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pour-commencer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pour commencer
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Pour commencer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#interface-de-developpement" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interface de développement
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mise-en-place" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mise en place
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#premier-exemple" class="md-nav__link">
+    <span class="md-ellipsis">
+      Premier exemple
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-outils-de-developpement" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les outils de développement
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-boites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les boîtes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Les boîtes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#les-boites-personnelles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les boîtes personnelles
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#affichage-flex" class="md-nav__link">
+    <span class="md-ellipsis">
+      Affichage Flex
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-vous" class="md-nav__link">
+    <span class="md-ellipsis">
+      À vous !
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="les-feuilles-de-style">Les feuilles de style</h1>
+<h2 id="pour-commencer">Pour commencer</h2>
+<p>Le langage HTML sert principalement à fournir du contenu à une page Web et il n'est donc pas utilisé pour la rendre élégante.<br />
+C'est le travail du langage CSS (Cascading Style Sheets) qui permet d'enjoliver le contenu fourni par HTML.</p>
+<h3 id="interface-de-developpement">Interface de développement</h3>
+<p>Pour développer efficacement un site Web, on propose d'utiliser le logiciel <strong>VSCodium</strong> qui existe sous différentes plateformes et qui est la version libre du logiciel <strong>Visual Studio Code</strong> (propriété de Microsoft). Vous pouvez télécharger la dernière version directement sur <a href="https://vscodium.com/#install" target="_blank">le site</a>.</p>
+<p><center>
+    <img src="./images/logo_vs.png" width=200px/>
+</center></p>
+<div class="admonition tip">
+<p class="admonition-title">Concernant l'installation sur Windows</p>
+<p>Préférez l'installation <strong>utilisateur</strong> plutôt que l'installation <strong>système</strong>.</p>
+</div>
+<h3 id="mise-en-place">Mise en place</h3>
+<p>Une fois l'installation terminée, ouvrez le logiciel puis dans votre explorateur de fichiers, créez un dossier <strong>TP_CSS</strong>.<br />
+Faites alors glisser ce dossier dans le logiciel <strong>VSCodium</strong> comme dans la vidéo ci-dessous.</p>
+<p><center>
+    <video controls src="./videos/css1.mp4" poster="./images/apercu.png" width=800 height=auto></video>
+</center></p>
+<p>Pour davantage d'efficacité dans la gestion du projet, installez l'extension <strong>Live Server</strong> comme dans la vidéo ci-dessous :</p>
+<p><center>
+    <video controls src="./videos/css2.mp4" poster="./images/apercu.png" width=800 height=auto></video>
+</center></p>
+<h3 id="premier-exemple">Premier exemple</h3>
+<p>Dans l'explorateur de dossiers de <strong>VSCodium</strong>, ajoutez un fichier nommé <strong>index.html</strong>
+et tapez à l'intérieur le texte <code>!</code> validez par <strong>Entrée</strong> pour ajouter
+la structure de base d'un fichier HTML.  </p>
+<p>Ajoutez un titre principal en copiant le code suivant entre les balises <code>&lt;body&gt;&lt;/body&gt;</code>:</p>
+<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Ajout d'un titre</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span>
+<span class="normal"><a href="#__codelineno-0-2">2</a></span>
+<span class="normal"><a href="#__codelineno-0-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="p">&lt;</span><span class="nt">header</span><span class="p">&gt;</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a>    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Le pixel art<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="p">&lt;/</span><span class="nt">header</span><span class="p">&gt;</span>
+</code></pre></div></td></tr></table></div>
+<div class="admonition tip">
+<p class="admonition-title">Important</p>
+<p>La balise <code>&lt;header&gt;&lt;/header&gt;</code> permet d'apporter une véritable structure à la page Web.  </p>
+</div>
+<p>Cliquez ensuite en bas à droite sur le bouton <strong>Go Live</strong> pour observez votre page Web.  </p>
+<p>L'ensemble de ces manipulations est observable dans la vidéo ci-dessous.</p>
+<p><center>
+    <video controls src="./videos/css3.mp4" poster="./images/apercu.png" width=800 height=auto></video>
+</center></p>
+<p>Pour rendre ce titre agréable à regarder, on va le mettre en forme grâce au CSS.<br />
+Pour cela, créez un fichier nommé <strong>style.css</strong> dans lequel vous allez écrire ces lignes :</p>
+<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Mise en forme</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-1-1">1</a></span>
+<span class="normal"><a href="#__codelineno-1-2">2</a></span>
+<span class="normal"><a href="#__codelineno-1-3">3</a></span>
+<span class="normal"><a href="#__codelineno-1-4">4</a></span>
+<span class="normal"><a href="#__codelineno-1-5">5</a></span>
+<span class="normal"><a href="#__codelineno-1-6">6</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="nt">h1</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2"></a><span class="w">    </span><span class="k">text-transform</span><span class="p">:</span><span class="w"> </span><span class="kc">uppercase</span><span class="p">;</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3"></a><span class="w">    </span><span class="k">letter-spacing</span><span class="p">:</span><span class="w"> </span><span class="mi">3</span><span class="kt">px</span><span class="p">;</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4"></a><span class="w">    </span><span class="k">color</span><span class="p">:</span><span class="w"> </span><span class="kc">red</span><span class="p">;</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5"></a><span class="w">    </span><span class="k">text-align</span><span class="p">:</span><span class="w"> </span><span class="kc">center</span><span class="p">;</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6"></a><span class="p">}</span>
+</code></pre></div></td></tr></table></div>
+<p>Enregistrez et observez qu'il ne se passe rien sur votre page Web !!!</p>
+<div class="admonition warning">
+<p class="admonition-title">Mise en relation</p>
+<p>Il est important de lier le fichier <strong>css</strong> avec votre page web.</p>
+</div>
+<p>Retournez à présent sur la page <strong>index.html</strong> et en dessous de la balise <code>&lt;title&gt;&lt;/title&gt;</code> tapez le mot <strong>link</strong> puis cliquez sur <strong>css</strong>.
+Enregistrez et observez comme sur la vidéo ci-dessous.</p>
+<p><center>
+    <video controls src="./videos/css4.mp4" poster="./images/apercu.png" width=800 height=auto></video>
+</center></p>
+<h3 id="les-outils-de-developpement">Les outils de développement</h3>
+<p>Les navigateurs disposent également de leur propre outils de développement.  </p>
+<p>Là où se trouve votre page Web, appuyez sur <strong>F12</strong> et en cliquant sur <strong>Élément</strong> vous pouvez survoler les différents blocs qui constituent votre page. 
+Il est également possible de désactiver certaines propriétés ou d'en paramétrer d'autres comme dans la vidéo ci-dessous.</p>
+<p><center>
+    <video controls src="./videos/css5.mp4" poster="./images/apercu.png" width=800 height=auto></video>
+</center></p>
+<p>La propriété <code>text-shadow</code> permet donc de gérer l'ombre d'un texte mais est difficilement paramétrable à la main. On préfère
+utiliser les outils de développement du navigateur pour trouver les valeurs les plus adaptées.</p>
+<h2 id="les-boites">Les boîtes</h2>
+<p>La partie qui suit permet de remplir le corps de la page.<br />
+Habituellement, on place le contenu de la page entre les balises <code>&lt;main&gt;&lt;/main&gt;</code> pour privilégier 
+une structure correcte.</p>
+<p>Commencez par ajoutez ces balises au fichier <strong>HTML</strong> puis copier le style proposé dans le fichier <strong>css</strong>.</p>
+<div class="admonition example">
+<p class="admonition-title">Mise à jour du code</p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Fichier HTML</label><label for="__tabbed_1_2">Fichier CSS</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Partie principale</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1">1</a></span>
+<span class="normal"><a href="#__codelineno-2-2">2</a></span>
+<span class="normal"><a href="#__codelineno-2-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="p">&lt;</span><span class="nt">main</span><span class="p">&gt;</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2"></a>
+<a id="__codelineno-2-3" name="__codelineno-2-3"></a><span class="p">&lt;/</span><span class="nt">main</span><span class="p">&gt;</span>
+</code></pre></div></td></tr></table></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Mise en forme</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-3-1">1</a></span>
+<span class="normal"><a href="#__codelineno-3-2">2</a></span>
+<span class="normal"><a href="#__codelineno-3-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="nt">main</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="w">    </span><span class="k">background</span><span class="p">:</span><span class="w"> </span><span class="kc">lightblue</span><span class="p">;</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="p">}</span>
+</code></pre></div></td></tr></table></div>
+</div>
+</div>
+</div>
+</div>
+<p>Comme dans la vidéo ci-dessous, on peut observer qu'il ne se passe rien sur la page web !!!</p>
+<p><center>
+    <video controls src="./videos/css6.mp4" poster="./images/apercu.png" width=800 height=auto></video>
+</center></p>
+<div class="admonition important">
+<p class="admonition-title">Raccourci</p>
+<p>Remarquez que pour écrire les balises <code>&lt;main&gt;&lt;/main&gt;</code> il suffit de taper <code>main</code> et de valider par <strong>Entrée</strong>.</p>
+</div>
+<p>L'idée est de forcer cette section à avoir une taille minimale. Pour cela, on utilise l'attribut <strong>min-height</strong>. On peut également gérer la largeur de la section avec <strong>width</strong>
+comme dans la vidéo ci-dessous.</p>
+<p><center>
+    <video controls src="./videos/css7.mp4" poster="./images/apercu.png" width=800 height=auto></video>
+</center></p>
+<p>Remarquez les différentes unités utilisées. D'abord des pixels pour la hauteur puis un pourcentage pour la largeur.<br />
+Pour centrer la boîte, on ne peut pas utiliser l'attribut <strong>text-align</strong> car ce n'est pas un texte. On utilise plutôt la notion de <strong>marges</strong>.  </p>
+<p>Les deux paramètres fournis sont respectivement :</p>
+<ul>
+<li>la hauteur au dessus et en dessous ;</li>
+<li>la hauteur à gauche et à droite.</li>
+</ul>
+<p>Observez grâce aux outils de développement du navigateur que les marges correspondent à votre demande.</p>
+<h3 id="les-boites-personnelles">Les boîtes personnelles</h3>
+<p>Nous avons pour l'instant modifier l'apparence des éléments officiels du langage HTML.<br />
+Il est également possible de définir nos propres éléments à l'aide de la balise <code>&lt;div&gt;&lt;/div&gt;</code>.  </p>
+<p>Une div est une <strong>division</strong> de la page Web et qui prend donc par défaut toute la largeur possible. <br />
+Pour identifier une divison personnelle, on lui associe une <strong>classe</strong> grâce à l'attribut <code>class</code>.<br />
+Pour modifier son apparence en CSS, on utilisera l'identifiant de la classe précédé d'un point (<code>.</code>).  </p>
+<p>Imaginons un instant que l'on souhaite établir une galerie d'images.<br />
+On procédérait comme dans la vidéo ci-dessous.</p>
+<p><center>
+    <video controls src="./videos/css8.mp4" poster="./images/apercu.png" width=800 height=auto></video>
+</center></p>
+<p>Ajoutons trois images (toutes situées dans le dossiers images) à l'intérieur de cette galerie.  </p>
+<p><center>
+    <video controls src="./videos/css9.mp4" poster="./images/apercu.png" width=900 height=auto></video>
+</center></p>
+<p>Ces images sont situées les unes à la suite des autres dans notre galerie (dont la hauteur a été modifiée au passage). Pour s'en rendre compte, on peut ajouter une couleur de fond aux images à l'aide du code CSS suivant :</p>
+<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Fond des images</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-4-1">1</a></span>
+<span class="normal"><a href="#__codelineno-4-2">2</a></span>
+<span class="normal"><a href="#__codelineno-4-3">3</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1"></a><span class="nt">img</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2"></a><span class="w">    </span><span class="k">background</span><span class="p">:</span><span class="w"> </span><span class="kc">red</span><span class="p">;</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3"></a><span class="p">}</span>
+</code></pre></div></td></tr></table></div>
+<p>Cependant, cela affectera toutes les images de la page Web comme le montre la vidéo ci-dessous :</p>
+<p><center>
+    <video controls src="./videos/css10.mp4" poster="./images/apercu.png" width=900 height=auto></video>
+</center></p>
+<p>Comme le montre la vidéo, si on souhaite modifier exclusivement l'aspect des images de la galerie, on utilise le sélecteur <strong>.galerie &gt; img</strong>.</p>
+<p>La position des images n'est donc pas satisfaisante et on devrait pourvoir obtenir un résultat plus agréable en positionnant précisément les images.<br />
+Il existe en réalité un outil beaucoup plus pratique appelé <strong>Flex</strong>.</p>
+<h3 id="affichage-flex">Affichage Flex</h3>
+<p>Le module des boîtes flexibles, aussi appelé « flexbox », a été conçu comme un modèle de disposition unidimensionnel et comme une méthode permettant de distribuer l'espace entre des objets d'une interface ainsi que de les aligner.</p>
+<p>Pour attribuer cette propriété, on utilise le code</p>
+<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">Flexbox</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-5-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1"></a><span class="nt">display</span><span class="o">:</span><span class="w"> </span><span class="nt">flex</span><span class="o">;</span>
+</code></pre></div></td></tr></table></div>
+<p>dans le sélecteur représentant le conteneur (ici, notre galerie).<br />
+Une fois cette propriété ajoutée, on peut gérer l'alignement horizontal grâce à la propriété <strong>justify-content</strong> et à l'alignement vertical grâce à la propriété <strong>align-items</strong> comme le montre la vidéo ci-dessous.</p>
+<p><center>
+    <video controls src="./videos/css11.mp4" poster="./images/apercu.png" width=900 height=auto></video>
+</center></p>
+<p>Il est possible d'utiliser le module de développement du navigateur pour voir l'effet des différents paramètres.</p>
+<p><center>
+    <video controls src="./videos/css12.mp4" poster="./images/apercu.png" width=900 height=auto></video>
+</center></p>
+<h2 id="a-vous">À vous !</h2>
+<p>Choisir un pays et réaliser une page Web (une seule) sur celui-ci en y intégrant du code CSS pour l'enjoliver.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Retour en haut de la page
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2025 David Wrobel
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.f1b6f286.min.js"></script>
+      
+        <script src="javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
